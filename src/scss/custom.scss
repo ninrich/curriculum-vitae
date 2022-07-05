@@ -1,0 +1,52 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/mixins";
+
+@font-face {
+  font-family: Raleway;
+  src: url("/assets/fonts/Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+
+$display-font-sizes: (
+  1: 5rem,
+);
+
+// 133152
+// 2576D5
+
+$primary: #133152;
+$secondary: #A7BCD9;
+$dark: #343434;
+
+$body-bg: $dark;
+$body-color: $primary;
+
+$font-family-base: "Raleway";
+
+$headings-font-family: "Raleway";
+$headings-color: $primary;
+$headings-font-weight: 400;
+$display-font-weight: 500;
+
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h2 {
+  border-bottom: 0.2rem solid $primary;
+}
+
+p {
+  text-align: justify;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+
+// Override bootstrap variables
+// This import has to be declared after overriding variables
+@import "bootstrap/scss/bootstrap";
