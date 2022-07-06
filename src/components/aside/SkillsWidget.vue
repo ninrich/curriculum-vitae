@@ -40,6 +40,7 @@ progress {
   border-radius: 3px;
   width: 100%;
   height: 1.5rem;
+  background-color: transparent;
 }
 
 progress::-webkit-progress-bar {
@@ -51,6 +52,6 @@ progress::-webkit-progress-value {
 }
 
 progress::-moz-progress-bar {
-  background-color: transparent;
+  background-color: $primary;
 }
 </style>
