@@ -42,7 +42,7 @@ export default {
           description:
               "During my last year of university I randomly met with a childhood friend and we decided to co-create " +
               "a (not only) car monitoring service. Almost ready to deploy the app to its first customers, we had to " +
-              "postpone the project due to lack of time on my friend's side caused by a once-in-a-lifetime opportunity.",
+              "put the project on hold due to lack of time on my friend's side caused by a once-in-a-lifetime opportunity.",
           projects: [
             {
               name: "Monbox",
